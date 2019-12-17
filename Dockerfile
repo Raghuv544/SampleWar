@@ -4,3 +4,4 @@ MAINTAINER "RAGHU"
 
 COPY /sampleapp.war /usr/local/tomcat/webapps/sampleapp.war
 CMD ["catalina.sh","run"]
+EXPOSE 8080
